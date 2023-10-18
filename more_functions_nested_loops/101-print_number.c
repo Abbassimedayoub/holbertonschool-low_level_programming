@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-	unsigned int num = n; // to convert n into his absulte value the manipulate it easly
+	unsigned int num = n; /* to convert n into his absulte value the manipulate it easly */
 
 	if (n < 0)
 	{
@@ -15,7 +15,7 @@ void print_number(int n)
 	}
 
 	if ((num / 10) > 0)
-		print_number(num / 10); // rpeat the function till num < 0
+		print_number(num / 10); /* rpeat the function till num < 0 */
 
 	_putchar((num % 10) + '0');
 }
