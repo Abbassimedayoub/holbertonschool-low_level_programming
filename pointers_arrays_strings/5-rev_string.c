@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	while (s[ln] != '\0')
 	{
-		ln++;/*this part of the function is to count the length of the string*/
+		ln++;
 	}
 	for (i = 0; i <= (ln / 2); i++)
 	{
