@@ -4,7 +4,7 @@
  * @*n: the entring number
  * Return: an int that must have the value of 98
  */
-int reset_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
