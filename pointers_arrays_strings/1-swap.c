@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * swap_int - function that switch tow number
+ * swap_int - function tow reverse 2 int
  * @a: the first int
  * @b: the second number
  * Return: nothing to return void
