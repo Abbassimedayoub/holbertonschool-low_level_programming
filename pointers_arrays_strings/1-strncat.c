@@ -2,7 +2,7 @@
 /**
  * _strncat - function that concatenates two strings
  * @dest: the string
- * @char: the string to be copied
+ * @src: the string to be copied
  * @n: the number of char to be copied
  * Return: char
  */
@@ -14,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		ln1++;
 	}
-	for (i = 0; i < n && src [i] != '\0'; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[ln1 + i] = src[i];
 	}
