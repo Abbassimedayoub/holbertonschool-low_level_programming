@@ -1,9 +1,9 @@
 #include "main.h"
-/*
- * swap_int - function tow reverse 2 int
- * @a: the first int
- * @b: the second number
- * Return: nothing to return void
+/**
+ * swap_int - check the code
+ * @a: character to be checked
+ * @b: character to be checked
+ * Return: the value of two integers
  */
 void swap_int(int *a, int *b)
 {
