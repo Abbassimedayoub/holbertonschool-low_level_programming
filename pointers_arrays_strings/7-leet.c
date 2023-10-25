@@ -8,15 +8,11 @@
   */
 char *leet(char *s)
 {
-	int ln = 0, i, j = 0;
+	int i, j;
 	char letre[5] = {'A', 'E', 'O', 'T', 'L'};
 	char chifre[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[ln] != '\0')
-	{
-		ln++;
-	}
-	for (i = 0; i < ln; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 5; j++)
 		{
