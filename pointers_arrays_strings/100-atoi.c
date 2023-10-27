@@ -6,11 +6,11 @@
  */
 int _atoi(char *s)
 {
-    int si = 1, i = 0, res = 0, stop = 0;
+	int si = 1, i = 0, res = 0, stop = 0;
 
-    while (s[i] != '\0')
-    {
-	    if (s[i] == '-')
+	while (s[i] != '\0')
+	{
+	    if (s[i] == '-' && s[i + 1] <= '9' && s[i + 1] >= '0')
 	    {
 		    si = -1;
 	    }
@@ -26,6 +26,6 @@ int _atoi(char *s)
 	    }
 	    i++;
     }
-return res * si;
+return (res * si);
 }
 
