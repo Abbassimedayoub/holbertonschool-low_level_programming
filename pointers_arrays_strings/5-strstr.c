@@ -5,30 +5,24 @@
  * @needle: string
  * Return: string
  */
-char* _strstr(char* haystack, char* needle)
+char *_strstr(char *haystack, char *needle)
 {
-    int i, j, k;
+	while (*haystack)
+	{
+		char *h = haystack;
+		char *n = needle;
 
-    for (i = 0; haystack[i] != '\0'; i++)
-    {
-	    k = i;
-	    j = 0;
-        if (haystack[k] == needle[j])
-        {
-            for (j = 1; needle[j] != '\0'; j++)
-            {
-                if (needle[j] != haystack[k + j])
-                {
-                    break;
-                }
-            }
-            if (needle[j] == '\0')
-            {
-                return &haystack[i];
-            }
-        }
-    }
+		while (*h && *n && (*h == *n))
+		{
+			h++;
+			n++;
+		}
+		if (!*n)
+		{
+			return (haystack);
+		}
+		haystack++;
+	}
 
-    return ('\0');
+	return (0);
 }
-
