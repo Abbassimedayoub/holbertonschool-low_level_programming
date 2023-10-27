@@ -19,3 +19,4 @@ char *cap_string(char *s);
 char *leet(char *);
 int _atoi(char *s);
 char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
