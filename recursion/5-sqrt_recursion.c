@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * checksqrt - function that returns the natural
+ * _checksqrt - function that returns the natural
  * square root of a number
  * @a: the number to serach his natural sqrt
  * @b: the number
