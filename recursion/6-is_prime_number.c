@@ -11,7 +11,7 @@ int _prime_finder(int a, int b)
 		return (1);
 	if (a % b == 0)
 		return (0);
-       return (_prime_finder(a, b + 1));	
+	return (_prime_finder(a, b + 1));
 }
 /**
  * is_prime_number - function that returns 1
@@ -23,6 +23,6 @@ int _prime_finder(int a, int b)
 int is_prime_number(int n)
 {
 	if (n <= 1)
-		return 0;
+		return (0);
 	return (_prime_finder(n, 2));
 }
