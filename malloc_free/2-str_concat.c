@@ -13,15 +13,19 @@ char *str_concat(char *s1, char *s2)
 	char *ptr;
 	unsigned int i, j;
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	ptr = (char *)malloc(strlen(s1) + strlen(s2) + 1);
 	/* size of char = 1 */
-	if ( ptr == NULL)
-		return(NULL);
+	if (ptr == NULL)
+		return (NULL);
 	for (i = 0; i < strlen(s1); i++)
 		ptr[i] = s1[i];
-	for(j = 0; j < strlen(s2); j++)
+	for (j = 0; j < strlen(s2); j++)
 		ptr[i + j] = s2[j];
 	ptr[i + j + 1] = '\0';
-	return(ptr);
+	return (ptr);
 	free(ptr);
 }
