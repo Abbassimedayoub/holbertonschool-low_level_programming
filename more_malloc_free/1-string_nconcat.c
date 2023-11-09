@@ -6,6 +6,7 @@
  * string_nconcat - function taht conatct 2 strings
  * @s1: the 1st dtring
  * @s2: the 2nd string
+ * @n: the number of char
  * Return: a string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
