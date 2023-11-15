@@ -1,6 +1,15 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+/**
+*new_dog - function to create new struct dog
+*@name:element of the structt
+*@age: element of the structt
+*@owner: element of the struct
+*
+*Return: ptr to the  type dog_t
+*/
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *p;
