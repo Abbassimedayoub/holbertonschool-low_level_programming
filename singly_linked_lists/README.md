@@ -41,17 +41,13 @@ To remove elements from the list:
     deleteAtPosition(list, position);
     ```
 
-### Traversal
-To iterate through the list:
 
-```c
-
-### Contributing
+# Contributing
 Feel free to fork this repository and contribute by creating pull requests. Bug fixes, improvements, and additional features are welcome!
 
-### License
+# License
 This Singly Linked List implementation is licensed under the MIT License.
 
-### Credits
+# Credits
 Created by [ABBASSI Mohamed Ayoub]
 
