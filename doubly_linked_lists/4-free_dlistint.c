@@ -2,7 +2,7 @@
 /**
  * free_dlistint - function that free a list
  * @head: the list to bee freed
- * @return: nothing to return void
+ * Return: void
  */
 void free_dlistint(dlistint_t *head)
 {
