@@ -3,7 +3,7 @@
  * add_node - function that add a node at the beging of a list
  * @head: the list
  * @str: the new list elements
- * Retrun: a list with a new elements
+ * Return: a list with a new elements
  */
 list_t *add_node(list_t **head, const char *str)
 {
