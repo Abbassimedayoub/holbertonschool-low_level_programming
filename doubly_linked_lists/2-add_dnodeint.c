@@ -2,7 +2,7 @@
 /**
  * add_dnodeint - function that add a new element to the
  * list
- * @h: pointer to the list to be add on
+ * @head: pointer to the list to be add on
  * @n: the contenet of the new elemnts
  * Return: pointer to the new element
  */
@@ -22,5 +22,5 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if ((*head) != NULL)
 		(*head)->prev = new_node;
 	*head = new_node;
-	return(new_node);
+	return (new_node);
 }
